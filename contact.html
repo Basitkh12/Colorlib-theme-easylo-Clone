@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/header.css" rel="stylesheet">
+    <link href="style/About.css" rel="stylesheet">
+    <link href="style/contact.css" rel="stylesheet">
+    <link href="style/Index.css" rel="stylesheet">
+    <link href="style/footer.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5413349e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="icon" type="image/icon-type" href="img/favicon.png.webp">
+    <title>Contact</title>
+</head>
+<body>
+    <div  class="navbar">
+        <div class="container">
+        <a href="homepage.html"> <img src="img/logo.png.webp"></a>
+        </div>
+        <div class="container2">
+            <ul> 
+           <li> <a   href="homepage.html">Home</a></li>
+           <li>  <a  href="About.html">About</a></li>
+           <li> <a  href="Services.html">Services</a></li>
+          <li> <div class="dropdown">
+            <button class="dropbtn">Blog</button>
+            <div class="dropdown-content">
+              <a href="Blog.html">Blog</a>
+              <a href="Blog-details.html">Blog Details</a>
+              <a href="Element.html">Elements</a>
+            </div>
+          </div>
+        </li>
+             <li>   <a id="text" href="contact.html">Contact</a></li>
+            </ul> 
+            <a href="Apply.html"><button id="home-button">Apply For Loan</button></a> 
+        </div>
+    </div>  
+    <script>
+        var className = "inverted";
+    var scrollTrigger = 500;
+    
+    window.onscroll = function() {
+      // We add pageYOffset for compatibility with IE.
+      if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+        document.getElementsByClassName("navbar")[0].classList.add(className);
+      } else {
+        document.getElementsByClassName("navbar")[0].classList.remove(className);
+      }
+    };
+        </script>
+
+    <div class="AboutDiv1">
+        <div class="firstdiv">
+            <h1>Contact</h1>
+        </div>
+    </div>
+
+    <div class="mapouter">
+        <div class="gmap_canvas">
+    <iframe width="100%" height="510" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+</iframe>
+<br>
+</div>
+</div>
+<div class="Details">
+    <div class="feedbackform">
+        <h1>Get in Touch</h1>
+        <textarea name="cmnt" id="cmt" cols="125" rows="15" placeholder="write a comment"></textarea>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input id="web" type="text" placeholder="Website">
+        <a href=""> <button>Send</button></a>
+    </div>
+    <div class="detailss">
+        <div class="home">
+            <i class="fa fa-house"></i>
+        <div class=" text">
+        <h1>Buttonwood, California.</h1>
+        <p>Rosemead, CA 91770</p>
+    </div>
+    </div>
+    <div class="home">
+        <i class="fa fa-tablet" aria-hidden="true"></i>
+        <div class=" text">
+        <h1>+1 253 565 2365</h1>
+        <p>Mon to Fri 9am to 6pm</p>
+    </div>
+    </div>
+
+    <div class="home">
+        <i class="fa fa-envelope"></i>
+        <div class=" text">
+        <h1>support@colorlib.com</h1>
+        <p>Send us your query anytime!</p>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="col1 ">
+        <img src="img/logo2_footer.png.webp">
+        <p >Tools such as a profit simulator and tax calculator show the value of your stock options 
+            and exercise cost.</p>
+    </div>
+    <div class="col2">
+        <h1 >Quick Links</h1>
+        <a  href="">Work</a>
+        <a  href="">Services</a>
+        <a href="">Products</a>
+        <a  href="">Tips & Tricks</a>
+    </div>
+    <div class="col3 ">
+        <h1 >Solution</h1>
+        <a href="">Air freight</a>
+        <a href="">Ocean freight</a>
+        <a  href="">Large projects</a>
+    </div>
+    <div class="col4  ">
+        <h1 >Newsletter</h1>
+        <p >Subscribe newsletter to get updates.</p>
+        <div class="textfield">
+            <input type="text"placeholder="Enter Your Email" />
+            <span class="input-group-text" id="sendicon"> <img src="img/Icon-send.svg"></span>
+        </div>
+        <div class=" wrapper ">
+           <a> <i class="fab fa-facebook"></i></a>
+           <a> <i class="fab fa-instagram"></i></a>
+           <a> <i class="fab fa-linkedin-in"></i></a>
+           <a> <i class=" fab fa-youtube"></i></a>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

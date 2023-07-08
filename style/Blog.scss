@@ -1,0 +1,266 @@
+@import 'properties';
+@import 'style';
+body{
+    margin: 0;
+}
+.inverted {
+    background-color: $teal;
+    position: fixed;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    a {color: $basic-color; }
+  }
+.majordiv   {
+    @include grid(grid,auto,60% 27%, null, null, space-evenly , null, 100px 0 0 12px,null, null);
+.blogs-holder
+{
+.BlogDiv1   {
+   @include flex ( flex,relative, null, 88vh, null, null, null, null,null,null, 0 0 30px 35px,null, null);
+    flex-direction: column;
+  .Div1    {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    img   {
+        width: 100%;
+    }
+    .Box    {
+        @include  flex ( null,absolute, 11%, 12vh, null, null, null, null,0,44px, null,null, $success);
+        text-decoration-line: none;
+         border-radius: 5px;
+        color: $basic-color;
+        text-align: center;
+    &:hover {
+        transition: .4s;
+        background: none;
+        text-decoration-line: none;
+        color: $success;
+    }
+    h1  {
+        @include  h1(27px,$wt-bold,null,auto,25px 0 0 0 ,1.2,null);
+        font-family: "Inter", sans-serif;
+    }
+    p
+    {
+        font-family: "Inter", sans-serif;
+        font-size: 17px;
+        margin: auto;
+}   }   }
+
+.Div2
+{
+    height: 27vh;
+    box-shadow: 0px 10px 20px 0px $rgb5;
+    a
+    {
+        text-decoration-line: none;
+        }
+    h1
+    {
+        @include  h1(24px,null,$light-black,null,29px 0 0 45px,null,null);
+        font-family: "Inter", sans-serif;
+        &:hover
+        {
+            color: $success;
+    }
+}
+    p
+    {
+        @include  h1(16px,$wt-normal,$light-grey,0 0 25px 0, 0 0 0 45px,30px,null);
+        font-family: "Chivo", sans-serif;
+    }
+    .genere
+    {
+        position: relative;
+        left: 28px;
+        bottom: 0;
+        a
+        {
+            font-family: "Chivo",sans-serif;
+            text-decoration-line: none;
+            padding-left: 10px;
+            color: $pigeon;
+            i
+            {
+                font-size: 13px;   
+            }
+            li
+            {
+                list-style-type: none;
+                display: inline-block;
+                padding-left: 10px;
+            }
+            span
+            {
+                padding-left: 10px;
+            }
+            &:hover
+            { 
+                color: $success;
+            }   }
+        li::after
+        {
+            content: "|";
+             padding-left: 10px;
+             padding-right: 10px;
+
+        }   }   }   }   }
+.side-bars
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: -35px;
+.search
+      {
+        display: flex;
+        padding-top: 22px;
+    padding-bottom: 22px;
+        background-color: $lighest-grey;
+         margin-bottom: 40px;
+        input{
+            @include button (6vh,55%,auto,0 0 0 10px,null,$pigeon, 13px,  2px solid $success);
+            font-family: "Inter", sans-serif;
+            border-radius: none;
+            border-color: $light-color;
+            &:focus{
+                outline: none;
+            }   }
+        button{
+            @include button (47px,90px, auto auto auto -37px,null,$success,$basic-color, null, $success);
+            font-family: "Inter", sans-serif;
+            position: relative;
+            border-radius: 0;
+}   }
+
+.category, .Recent-post,.Tag-cloud,.Insta-feed,.Newsletter{
+    h1{
+        @include h1(20px,$wt-bold,$light-black,0 0 40px 0,15px 0 0 30px,null,null);
+        font-family: "Inter", sans-serif;
+     font-style: normal;
+    &::after{
+        content: "";
+    display: block;
+    padding-top: 15px;
+    width: 90%;
+    border-bottom: 1px solid $light-color;
+    }   }
+    
+}
+.category
+{
+    background-color:$lighest-grey;
+    padding-bottom: 30px;
+    margin-bottom:43px;
+ 
+ a{
+    p{
+        padding-left: 30px;
+        font-weight: 500;
+    }
+    @include h1(14px,null,$ligter-grey,null,null,20px,null);
+    font-family: "Inter", sans-serif;
+    text-decoration-line: none;
+&:hover{
+    color: $success;
+    transition: .4s;
+}
+&::after{
+    content: "";
+    display: block;
+    width: 86%;
+    margin: auto;
+    border-bottom: 1px solid $light-color;
+}
+&:nth-child(7){
+    &::after{
+    border-bottom: none;
+}   }   }   }
+    
+.Recent-post{
+    background-color:$lighest-grey ;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  
+    .post1,.post2,.post3,.post4{
+        margin-left: 30px;
+        display: flex;
+        margin-bottom: 12px;
+        .text{
+            margin-left: 20px;
+        a{
+            text-decoration-line: none;
+            h2{
+                @include h1(16px,null,$light-black,0 0 6px 0,null,20px,null);
+                font-family: "Inter", sans-serif;
+        &:hover{
+        color: $success;
+        transition: all 0.3s linear;
+}       }       }
+        p{
+            @include h1(14px,null,$light-grey, 0 0 0 0,null,21px,null);
+            font-family: "Inter", sans-serif;
+        }   }   }   }
+
+.Tag-cloud{
+    background-color: $lighest-grey;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    &:nth-child(4)
+    {
+        padding-left: 34px;
+    }
+    a{
+        button{
+            @include button (null,null,0 3px 8px 0,4px 20px,$basic-color,$ligter-grey, 13px, 1px solid $menu-headings);
+            font-family: "Inter", sans-serif;
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            font-weight: 600;
+    &:hover{
+        background: $success;
+        color: $basic-color;
+    }   }   }   }
+
+.Insta-feed{
+    background-color:$lighest-grey;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    .images{
+    margin-left: 30px;
+    img{
+        width: 27%;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }   }   }
+.Newsletter{
+    background-color:$lighest-grey ;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    input{
+        @include button (6vh,80%,auto, 0 0 0 10px,$light-color,$pigeon, 13px, none);
+        font-family: "Inter", sans-serif;
+            border-radius: none;
+            &:focus{
+                outline: none;
+            }   }
+    button{
+        @include button (7vh,85%, 10px 0 0 0,null,$basic-color, $success, null, 1px solid $success);
+        font-family: "Inter", sans-serif;
+        border-radius: 0;
+        &:hover{
+            background: $success;
+    color: $basic-color;
+        }   }   }   }   }
+
+.buttons{
+    margin: 70px 0 100px 450px;
+    width: fit-content;
+    button{
+        @include button (45px,45px, 0 0 0 10px, 0 0 0 10px,null,$greyish, 14px, null);
+        font-family: "Chivo",sans-serif;
+    color: $greyish;
+    border: 1px solid $light-color;
+    &:hover{
+        color:$success ;
+        transition:.4s;
+    }   }   }

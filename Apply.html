@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/header.css" rel="stylesheet">
+    <link href="style/About.css" rel="stylesheet">
+    <link href="style/Apply.css" rel="stylesheet">
+    <link href="style/Index.css" rel="stylesheet">
+    <link href="style/footer.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5413349e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="icon" type="image/icon-type" href="img/favicon.png.webp">
+    <title>Apply For Loan</title>
+</head>
+<body>
+    <div  class="navbar">
+        <div class="container">
+        <a href="homepage.html"> <img src="img/logo.png.webp"></a>
+        </div>
+        <div class="container2">
+            <ul> 
+           <li> <a   href="homepage.html">Home</a></li>
+           <li>  <a  href="About.html">About</a></li>
+           <li> <a  href="Services.html">Services</a></li>
+          <li> <div class="dropdown">
+            <button class="dropbtn">Blog</button>
+            <div class="dropdown-content">
+              <a href="Blog.html">Blog</a>
+              <a href="Blog-details.html">Blog Details</a>
+              <a href="Element.html">Elements</a>
+            </div>
+          </div>
+        </li>
+             <li>   <a id="text" href="contact.html">Contact</a></li>
+            </ul> 
+            <a href="Apply.html"><button id="home-button">Apply For Loan</button></a> 
+        </div>
+    </div>  
+    <script>
+        var className = "inverted";
+    var scrollTrigger = 500;
+    
+    window.onscroll = function() {
+      if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+        document.getElementsByClassName("navbar")[0].classList.add(className);
+      } else {
+        document.getElementsByClassName("navbar")[0].classList.remove(className);
+      }
+    };
+        </script>
+
+    <div class="AboutDiv1">
+        <div class="firstdiv">
+            <h1>Apply Now</h1>
+        </div>
+    </div>
+    
+    <div class="loan-Apply">
+      <div class="labels" >
+      <label>* LOAN AMOUNT ($)</label>
+      <label>* PURPOSE OF LOAN</label>
+    </div>
+
+    <div class="fields">
+      <input type="text" placeholder="Enter Name">
+     
+      <select name="purpose" id="prpose">
+        <option value="1">Choose Categories</option>
+        <option value="1">Category 1</option>
+        <option value="1">Category 2</option>
+        <option value="1">Category 3</option>
+      </select>
+    </div>
+   <div class="gender">
+    <label>* SELECT GENDER : </label> <input type="radio" name="rd"><label>Male</label>  
+    <input type="radio" name="rd"> <label>Female</label>
+  </div>
+
+  <div class="scndlabels" >
+    <label>* FIRST NAME</label>
+    <label>* LAST NAME</label>
+  </div>
+  <div class="fields">
+    <input type="text" placeholder="Enter Name">
+   <input type="text" placeholder="Enter Name">
+  </div>
+
+  <label id="In-label">* NUMBER OF DEPENDANTS</label>
+  <select name="" id="slct">
+    <option value="1">Choose Option</option>
+    <option value="1">Category 1</option>
+        <option value="1">Category 2</option>
+        <option value="1">Category 3</option>
+  </select>
+
+  <div class="labels" >
+    <label>* EMAIL ADDERESS</label>
+    <label>* PHONE NUMBER</label>
+  </div>
+  <div class="fields">
+    <input type="text" placeholder="Enter email">
+   <input type="text" placeholder="Enter number">
+    </select>
+  </div>
+
+  <label id="In-label">* MARITAL STATUS</label>
+  <select name="" id="slct">
+    <option value="1">Choose Categories</option>
+    <option value="1">Category 1</option>
+        <option value="1">Category 2</option>
+        <option value="1">Category 3</option>
+  </select>
+
+  <div class="scndlabels" >
+    <label>* FIRST NAME</label>
+    <label>* TOWN/CITY</label>
+  </div>
+  <div class="fields">
+    <input type="text" placeholder="Enter name">
+   <input type="text" placeholder="Enter city">
+    </select>
+  </div>
+
+  <div class="thrdlabels" >
+    <label>* STREET</label>
+    <label>* HOUSE NAME/NUMBER</label>
+  </div>
+  <div class="fields">
+    <input type="text" placeholder="Enter Street Address">
+   <input type="text" placeholder="Enter House Name">
+    </select>
+  </div>
+
+  <label id="In-label">* HOMEOWNER STATUS</label>
+  <select name="" id="slct">
+    <option value="1">Enter Houseowner status</option>
+    <option value="1">Category 1</option>
+        <option value="1">Category 2</option>
+        <option value="1">Category 3</option>
+  </select>
+
+  <div class="labels" >
+    <label>* EMPLOYMENT INDUSTRY</label>
+    <label>* EMPLOYER NAME</label>
+  </div>
+  <div class="fields">
+    <input type="text" placeholder="Enter INDUSTRY">
+   <input type="text" placeholder="Enter Name">
+    </select>
+  </div>
+
+  <div class="thrdlabels" >
+    <label>* WORK PHONE NUMBER</label>
+    <label>* MONTHLY INCOME ($)</label>
+  </div>
+  <div class="fields">
+    <input type="text" placeholder="Phone Number">
+   <input type="text" placeholder="Enter Name">
+    </select>
+  </div>
+
+  <a href=""><button>APPLY NOW</button></a>
+    </div>
+
+    <div class="footer">
+      <div class="col1 ">
+          <img src="img/logo2_footer.png.webp">
+          <p >Tools such as a profit simulator and tax calculator show the value of your stock options 
+              and exercise cost.</p>
+      </div>
+      <div class="col2">
+          <h1 >Quick Links</h1>
+          <a  href="">Work</a>
+          <a  href="">Services</a>
+          <a href="">Products</a>
+          <a  href="">Tips & Tricks</a>
+      </div>
+      <div class="col3 ">
+          <h1 >Solution</h1>
+          <a href="">Air freight</a>
+          <a href="">Ocean freight</a>
+          <a  href="">Large projects</a>
+      </div>
+      <div class="col4  ">
+          <h1 >Newsletter</h1>
+          <p >Subscribe newsletter to get updates.</p>
+          <div class="textfield">
+              <input type="text"placeholder="Enter Your Email" />
+              <span class="input-group-text" id="sendicon"> <img src="img/Icon-send.svg"></span>
+          </div>
+          <div class=" wrapper ">
+             <a> <i class="fab fa-facebook"></i></a>
+             <a> <i class="fab fa-instagram"></i></a>
+             <a> <i class="fab fa-linkedin-in"></i></a>
+             <a> <i class=" fab fa-youtube"></i></a>
+          </div>
+  
+      </div>
+  
+  </div>
+</body>
+</html>

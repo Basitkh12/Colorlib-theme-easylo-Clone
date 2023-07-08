@@ -1,0 +1,67 @@
+@mixin flex ( $display,$position, $width, $height, $justifycontent, $alignitems, $top, $right,$bottom,$left, $margin,$paddding, $bg-color)
+{
+    display: $display;
+    position:$position;
+    width: $width;
+    height: $height;
+    justify-content: $justifycontent;
+    align-items: $alignitems;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    margin: $margin;
+    padding: $paddding;
+    background-color: $bg-color;
+}
+
+@mixin button ($height,$width,$margin,$padding,$bg-color,$color, $font-size, $border)
+{
+    height: $height;
+    width: $width;
+    margin: $margin;
+    padding: $padding;
+    background-color: $bg-color;
+    color: $color;
+    font-size: $font-size;
+    border: $border;
+}
+
+@mixin lines( $position,$bg-color, $width,$height,$left,$top,$bottom,$right,$z-index,$bg-repeat)
+{
+    position: $position;
+    content: "";
+    background-color:$bg-color;
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+    bottom: $bottom;
+    right: $right;
+    z-index: $z-index;
+    background-repeat: $bg-repeat;
+}
+
+@mixin h1($f-size,$f-weight,$color,$margin,$padding,$L-height,$position)
+{
+    font-size: $f-size;
+    font-weight: $f-weight;
+    color: $color;
+    margin: $margin;
+    padding: $padding;
+    line-height: $L-height;
+    position: $position;
+}
+@mixin grid($display,$rows,$columns, $width, $height, $justifycontent, $alignitems, $margin,$paddding, $bg-color)
+{
+    display: $display;
+    grid-template-rows: $rows;
+    grid-template-columns: $columns;
+    width: $width;
+    height: $height;
+    justify-content: $justifycontent;
+    align-items: $alignitems;
+    margin: $margin;
+    padding: $paddding;
+    background-color: $bg-color;
+}

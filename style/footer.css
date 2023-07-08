@@ -1,0 +1,96 @@
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 87px 0 90px 0;
+  background-color: #E4F1ED;
+  border-bottom: 2px solid rgba(15, 67, 50, 0.1);
+}
+.footer .col1 {
+  width: 19%;
+}
+.footer .col1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4C5753;
+  padding: 20px 0 0 0;
+  line-height: 1.6;
+  font-family: "Chivo", sans-serif;
+}
+.footer .col2, .footer .col3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer .col2 h1, .footer .col3 h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0F4332;
+  font-family: "Chivo", sans-serif;
+}
+.footer .col2 a, .footer .col3 a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4C5753;
+  padding: 20px 0 0 0;
+  font-family: "Chivo", sans-serif;
+  text-decoration-line: none;
+}
+.footer .col2 a:hover, .footer .col3 a:hover {
+  color: #10C98F;
+  text-decoration-line: underline;
+}
+.footer .col4 {
+  width: 27%;
+}
+.footer .col4 h1 {
+  font-family: "Chivo", sans-serif;
+  color: #0F4332;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer .col4 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4C5753;
+  padding: 16px 0 0 0;
+  font-family: "Chivo", sans-serif;
+}
+.footer .col4 .textfield {
+  display: flex;
+}
+.footer .col4 .textfield input {
+  width: 100%;
+  height: 8vh;
+  border: 2px solid #10C98F;
+  background: none;
+}
+.footer .col4 .textfield input:focus {
+  outline: #10C98F;
+}
+.footer .col4 .textfield span {
+  width: 25%;
+  position: relative;
+  border-radius: 0;
+  background: #10C98F;
+}
+.footer .col4 .textfield span img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.footer .col4 .wrapper {
+  margin-top: 50px;
+  color: #4C5753;
+  font-size: 20px;
+}
+.footer .col4 .wrapper .fab {
+  margin-right: 20px;
+}
+.footer .col4 .wrapper a:hover i {
+  transform: rotateY(180deg);
+  transition: all 0.4s ease-out 0s;
+  color: #10C98F;
+}/*# sourceMappingURL=footer.css.map */

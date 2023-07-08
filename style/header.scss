@@ -1,0 +1,76 @@
+@import 'properties';
+@import 'style';
+
+
+.navbar
+{
+
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding: 9px 0 12px 0;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 9;
+    .container{
+      margin: auto;
+      width: 20%;
+      z-index: 1;
+    }
+    .container2{
+    @include flex ( flex,null, 50%, null, space-evenly, null, null, null,null,null, auto, 0 10px 0 0 , null);
+    ul{
+        display: flex;
+        text-align: center;
+        li{
+             list-style-type: none;
+             a{
+              @include h1(17px,$wt-bold,$basic-color,null,0 0 0 46px,null,null);
+              font-family: "Inter", sans-serif;
+                text-decoration-line: none;
+             }
+        }
+    }
+    .dropdown {
+      font-family: "Inter", sans-serif;
+      position: relative;
+      display: inline-block;
+    }
+    .dropbtn {
+        @include button (null,null,null, 0 0 0 43px,transparent,$basic-color, 17px, none);
+      font-family: "Inter", sans-serif;
+          font-weight: $wt-bold;
+      }
+      .dropdown-content {
+        font-family: "Inter", sans-serif;
+        display: none;
+        position: absolute;
+        background-color: $basic-color;
+        min-width: 160px;
+        box-shadow: $rgb1;
+        z-index: 1;
+      }
+      .dropdown-content a {
+        @include h1(16px,null,$green,null,12px 16px,null,null);
+        font-family: "Inter", sans-serif;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .dropdown-content a:hover {
+        background:none;
+        color: $success;
+       }
+      .dropdown:hover .dropdown-content {display: block;
+       }   
+    } 
+#home-button{
+  @include button (null,null,null, 21px 36px,$success ,$basic-color, 16px ,1px $success );
+  font-weight: $wt-medium;  
+  margin-left: 26px;
+  cursor: pointer;
+
+
+
+}
+}

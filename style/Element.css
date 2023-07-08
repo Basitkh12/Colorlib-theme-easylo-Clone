@@ -1,0 +1,1615 @@
+body {
+  margin: 0;
+}
+
+.Text-samples {
+  padding: 88px 216px 5px 113px;
+}
+.Text-samples h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Text-samples p {
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.Text-samples p b, .Text-samples p sup, .Text-samples p sub, .Text-samples p u, .Text-samples p del {
+  color: #97A7AF;
+}
+
+.Buttons {
+  padding: 88px 216px 5px 113px;
+}
+.Buttons h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Buttons .first-Row {
+  padding: 0px 260px 0 0px;
+}
+.Buttons .first-Row a #btn1 {
+  color: #415094;
+  background: #f9f9ff;
+  padding: 13px 31px;
+  border: 1px solid transparent;
+}
+.Buttons .first-Row a #btn1:hover {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .first-Row a #btn2 {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  padding: 13px 31px;
+  margin-left: 10px;
+  background: #97A7AF;
+}
+.Buttons .first-Row a #btn2:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .first-Row a #btn3 {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .first-Row a #btn3:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+.Buttons .first-Row a #btn4 {
+  color: #fff;
+  background: #38a4ff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+}
+.Buttons .first-Row a #btn4:hover {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+.Buttons .first-Row a #btn5 {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .first-Row a #btn5:hover {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+}
+.Buttons .first-Row a #btn6 {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .first-Row a #btn6:hover {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+}
+.Buttons .first-Row a #btn7 {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .first-Row a #btn7:hover {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .first-Row a #btn8 {
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  cursor: not-allowed;
+  padding: 13px 31px;
+}
+.Buttons .Second-Row {
+  padding: 0px 260px 0 0px;
+  margin-top: 20px;
+}
+.Buttons .Second-Row a #btn1 {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  padding: 13px 31px;
+  color: #fff;
+}
+.Buttons .Second-Row a #btn1:hover {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+.Buttons .Second-Row a #btn2 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+}
+.Buttons .Second-Row a #btn2:hover {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  background: #97A7AF;
+}
+.Buttons .Second-Row a #btn3 {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .Second-Row a #btn3:hover {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+}
+.Buttons .Second-Row a #btn4 {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+}
+.Buttons .Second-Row a #btn4:hover {
+  color: #fff;
+  background: #38a4ff;
+  border: 1px solid transparent;
+}
+.Buttons .Second-Row a #btn5 {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+}
+.Buttons .Second-Row a #btn5:hover {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+}
+.Buttons .Second-Row a #btn6 {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+}
+.Buttons .Second-Row a #btn6:hover {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+}
+.Buttons .Second-Row a #btn7 {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .Second-Row a #btn7:hover {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  border: 1px solid transparent;
+}
+.Buttons .Second-Row a #btn8 {
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+  margin-left: 10px;
+  padding: 13px 31px;
+}
+.Buttons .Third-Row {
+  padding: 0px 250px 0 0px;
+  margin-top: 40px;
+}
+.Buttons .Third-Row a #btn1 {
+  color: #415094;
+  background: #f9f9ff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn1:hover {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn2 {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  padding: 13px 31px;
+  margin-left: 10px;
+  background: #97A7AF;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn2:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn3 {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn3:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn4 {
+  color: #fff;
+  background: #38a4ff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn4:hover {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn5 {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn5:hover {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn6 {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn6:hover {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn7 {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  border: 1px solid transparent;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Third-Row a #btn7:hover {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .Third-Row a #btn8 {
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row {
+  padding: 0px 260px 0 0px;
+  margin-top: 20px;
+}
+.Buttons .Fourth-Row a #btn1 {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  padding: 13px 31px;
+  color: #fff;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn1:hover {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+.Buttons .Fourth-Row a #btn2 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn2:hover {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  background: #97A7AF;
+}
+.Buttons .Fourth-Row a #btn3 {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn3:hover {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+}
+.Buttons .Fourth-Row a #btn4 {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn4:hover {
+  color: #fff;
+  background: #38a4ff;
+  border: 1px solid transparent;
+}
+.Buttons .Fourth-Row a #btn5 {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn5:hover {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+}
+.Buttons .Fourth-Row a #btn6 {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn6:hover {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+}
+.Buttons .Fourth-Row a #btn7 {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fourth-Row a #btn7:hover {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  border: 1px solid transparent;
+}
+.Buttons .Fourth-Row a #btn8 {
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Buttons .Fifth-Row {
+  padding: 0px 250px 0 0px;
+  margin-top: 40px;
+}
+.Buttons .Fifth-Row a #btn1 {
+  color: #415094;
+  background: #f9f9ff;
+  padding: 13px 31px;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn1:hover {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn2 {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  padding: 13px 31px;
+  background: #97A7AF;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn2:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn3 {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn3:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn4 {
+  color: #fff;
+  background: #38a4ff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn4:hover {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn5 {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  padding: 13px 31px;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn5:hover {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn6 {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+  margin-left: 10px;
+  padding: 13px 31px;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn6:hover {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn7 {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  padding: 13px 31px;
+  border-radius: 20px;
+}
+.Buttons .Fifth-Row a #btn7:hover {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .Fifth-Row a #btn8 {
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+  margin-left: 10px;
+  padding: 13px 31px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row {
+  padding: 0px 260px 0 0px;
+  margin-top: 20px;
+}
+.Buttons .Sixth-Row a #btn1 {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  padding: 13px 31px;
+  color: #fff;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn1:hover {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+.Buttons .Sixth-Row a #btn2 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn2:hover {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  background: #97A7AF;
+}
+.Buttons .Sixth-Row a #btn3 {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn3:hover {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+}
+.Buttons .Sixth-Row a #btn4 {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+  margin-left: 10px;
+  padding: 13px 31px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn4:hover {
+  color: #fff;
+  background: #38a4ff;
+  border: 1px solid transparent;
+}
+.Buttons .Sixth-Row a #btn5 {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn5:hover {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+}
+.Buttons .Sixth-Row a #btn6 {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn6:hover {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+}
+.Buttons .Sixth-Row a #btn7 {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  padding: 13px 31px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Sixth-Row a #btn7:hover {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  border: 1px solid transparent;
+}
+.Buttons .Sixth-Row a #btn8 {
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+  margin-left: 10px;
+  padding: 13px 31px;
+  border-radius: 20px;
+}
+.Buttons .Seventh-Row {
+  padding: 0px 384px 0 0px;
+  margin-top: 40px;
+}
+.Buttons .Seventh-Row a #btn1 {
+  color: #415094;
+  background: #f9f9ff;
+  padding: 11px 38px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.Buttons .Seventh-Row a #btn1:hover {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+.Buttons .Seventh-Row a #btn2 {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  padding: 11px 38px;
+  background: #97A7AF;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Seventh-Row a #btn2:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .Seventh-Row a #btn3 {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+  padding: 11px 38px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Seventh-Row a #btn3:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+.Buttons .Seventh-Row a #btn4 {
+  color: #fff;
+  background: #38a4ff;
+  padding: 11px 38px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.Buttons .Seventh-Row a #btn4:hover {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+.Buttons .Seventh-Row a #btn5 {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+  padding: 11px 38px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.Buttons .Seventh-Row a #btn5:hover {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+}
+.Buttons .Seventh-Row a #btn6 {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+  padding: 11px 38px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Seventh-Row a #btn6:hover {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+}
+.Buttons .Eigth-Row {
+  padding: 0px 384px 0 0px;
+  margin-top: 20px;
+}
+.Buttons .Eigth-Row a #btn1 {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  padding: 11px 38px;
+  color: #fff;
+  border-radius: 20px;
+}
+.Buttons .Eigth-Row a #btn1:hover {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+.Buttons .Eigth-Row a #btn2 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  margin-left: 10px;
+  padding: 11px 38px;
+  border-radius: 20px;
+}
+.Buttons .Eigth-Row a #btn2:hover {
+  color: #fff;
+  border: 1px solid #97A7AF;
+  background: #97A7AF;
+}
+.Buttons .Eigth-Row a #btn3 {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+  padding: 11px 38px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.Buttons .Eigth-Row a #btn3:hover {
+  color: #fff;
+  border: 1px solid #4cd3e3;
+  background: #4cd3e3;
+}
+.Buttons .Eigth-Row a #btn4 {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+  padding: 11px 38px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Eigth-Row a #btn4:hover {
+  color: #fff;
+  background: #38a4ff;
+  border: 1px solid transparent;
+}
+.Buttons .Eigth-Row a #btn5 {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+  padding: 11px 38px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Eigth-Row a #btn5:hover {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+}
+.Buttons .Eigth-Row a #btn6 {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+  padding: 11px 38px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.Buttons .Eigth-Row a #btn6:hover {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+}
+.Buttons .Ninth-Row {
+  margin-top: 40px;
+  padding: 0px 470px 0 0px;
+}
+.Buttons .Ninth-Row a #btn1 {
+  color: #fff;
+  background: #97A7AF;
+  border: 1px solid transparent;
+  padding: 18px 50px;
+  margin-left: 10px;
+}
+.Buttons .Ninth-Row a #btn1:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .Ninth-Row a #btn2 {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+  margin: 10px 5px;
+  padding: 14px 29px 14px;
+}
+.Buttons .Ninth-Row a #btn2:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+.Buttons .Ninth-Row a #btn3 {
+  color: #fff;
+  background: #97A7AF;
+  border: 1px solid transparent;
+  margin: 13px 5px;
+  padding: 11px 29px 11px;
+}
+.Buttons .Ninth-Row a #btn3:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .Ninth-Row a #btn4 {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+  margin: 15px 5px;
+  padding: 8px 29px 8px;
+}
+.Buttons .Ninth-Row a #btn4:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+.Buttons .Ninth-Row a #btn5 {
+  color: #fff;
+  background: #97A7AF;
+  border: 1px solid transparent;
+  margin: 17px 5px;
+  padding: 4px 29px 4px;
+}
+.Buttons .Ninth-Row a #btn5:hover {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+}
+.Buttons .Tenth-Row {
+  margin-top: 10px;
+  padding: 0px 470px 0 0px;
+}
+.Buttons .Tenth-Row a #btn1 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  padding: 18px 50px;
+}
+.Buttons .Tenth-Row a #btn1:hover {
+  color: #fff;
+  background: #97A7AF;
+  border: 1px solid transparent;
+}
+.Buttons .Tenth-Row a #btn2 {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+  margin: 10px 5px;
+  padding: 14px 29px 14px;
+}
+.Buttons .Tenth-Row a #btn2:hover {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+}
+.Buttons .Tenth-Row a #btn3 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  margin: 13px 5px;
+  padding: 11px 29px 11px;
+}
+.Buttons .Tenth-Row a #btn3:hover {
+  color: #fff;
+  background: #97A7AF;
+  border: 1px solid transparent;
+}
+.Buttons .Tenth-Row a #btn4 {
+  color: #4cd3e3;
+  background: #fff;
+  border: 1px solid #4cd3e3;
+  margin: 15px 5px;
+  padding: 8px 29px 8px;
+}
+.Buttons .Tenth-Row a #btn4:hover {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+}
+.Buttons .Tenth-Row a #btn5 {
+  color: #97A7AF;
+  border: 1px solid #97A7AF;
+  background: #fff;
+  margin: 17px 5px;
+  padding: 4px 29px 4px;
+}
+.Buttons .Tenth-Row a #btn5:hover {
+  color: #fff;
+  background: #97A7AF;
+  border: 1px solid transparent;
+}
+
+.L-aligned {
+  padding: 87px 108px 5px 113px;
+  display: flex;
+}
+.L-aligned .head-img h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.L-aligned .head-img img {
+  height: 28vh;
+}
+.L-aligned .paraghp {
+  padding: 13px 66px 0 0;
+}
+.L-aligned .paraghp p {
+  margin: 60px 0 0 25px;
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+}
+
+.R-aligned {
+  padding: 87px 165px 5px 113px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.R-aligned h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.R-aligned .head-img {
+  margin-top: 76px;
+}
+.R-aligned .head-img img {
+  height: 28vh;
+}
+.R-aligned .paraghp {
+  padding: 13px 6px 0 0;
+}
+.R-aligned .paraghp p {
+  margin: 30px 0 0 0;
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+}
+
+.definition {
+  width: 85%;
+  margin: 0 auto 100px;
+}
+.definition h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.definition .divss {
+  display: flex;
+  justify-content: space-between;
+}
+.definition .divss .div1, .definition .divss .div2, .definition .divss .div3 {
+  width: 30%;
+}
+.definition .divss .div1 h2, .definition .divss .div2 h2, .definition .divss .div3 h2 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.definition .divss .div1 p, .definition .divss .div2 p, .definition .divss .div3 p {
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.Blockquote {
+  width: 85%;
+  margin: 0 auto 100px;
+}
+.Blockquote h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.Blockquote p {
+  padding: 30px 50px 30px 30px;
+  background: #f9f9ff;
+  border-left: 2px solid #97A7AF;
+  line-height: 1.5;
+  color: #212529;
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+}
+
+.table {
+  width: 85%;
+  margin: 0 auto 100px;
+  overflow-x: scroll;
+}
+.table h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.table table {
+  background: #f9f9ff;
+  padding: 15px 0px 30px 0px;
+  width: 100%;
+}
+.table table th {
+  font-family: "Chivo", sans-serif;
+  color: #415094;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: left;
+  padding-right: 30px;
+}
+.table table #serial, .table table #tdd {
+  padding-left: 25px;
+}
+.table table td {
+  line-height: 1.5;
+  color: #212529;
+  font-family: "Chivo", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  padding: 15px 0;
+}
+.table table td img {
+  margin-right: 15px;
+}
+.table table td .pb1 {
+  height: 0.6vh;
+  width: 80%;
+  background: #6382e6;
+}
+.table table td .pb2 {
+  height: 0.6vh;
+  width: 30%;
+  background-color: #e66686;
+}
+.table table td .pb3 {
+  height: 0.6vh;
+  width: 55%;
+  background-color: #f09359;
+}
+.table table td .pb4 {
+  height: 0.6vh;
+  width: 60%;
+  background-color: #73fbaf;
+}
+.table table td .pb5 {
+  height: 0.6vh;
+  width: 40%;
+  background-color: #73fbaf;
+}
+.table table td .pb6 {
+  height: 0.6vh;
+  width: 70%;
+  background-color: #6382e6;
+}
+.table table td .pb7 {
+  height: 0.6vh;
+  width: 30%;
+  background-color: #a367e7;
+}
+.table table td .pb8 {
+  height: 0.6vh;
+  width: 60%;
+  background-color: #e66686;
+}
+
+.gallery {
+  width: 85%;
+  margin: 0 auto 100px;
+}
+.gallery h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.gallery .row, .gallery .column {
+  padding: 0 8px;
+}
+.gallery .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gallery .column {
+  float: left;
+  width: 31%;
+}
+.gallery .column img {
+  width: 100%;
+  height: 27vh;
+}
+.gallery .columng4 {
+  float: left;
+  width: 49%;
+}
+.gallery .columng4 #g4 {
+  width: 96%;
+  height: 27vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gallery .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.gallery .modal::before {
+  content: "";
+  background: #4A3600;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+.gallery .modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 79%;
+  height: 66vh;
+}
+.gallery .close {
+  color: white;
+  position: absolute;
+  top: 299px;
+  right: 559px;
+  font-size: 35px;
+  font-weight: bold;
+  width: 2%;
+}
+.gallery .mySlides {
+  margin: 20% 0 0 33%;
+}
+.gallery .mySlides img {
+  width: 50%;
+  margin: auto;
+}
+.gallery .prev {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  margin: 30px auto;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-right: 30px solid white;
+}
+.gallery .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 0;
+  border-left: 30px solid white;
+  height: 0;
+  margin: 30px auto;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  color: white;
+  transition: 0.6s ease;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.gallery .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.gallery img.demo {
+  opacity: 0.6;
+}
+.gallery .active,
+.gallery .demo:hover {
+  opacity: 1;
+}
+
+.H-Ol-Ul {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto 100px;
+}
+.H-Ol-Ul h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.H-Ol-Ul .heading #head1, .H-Ol-Ul .heading h2, .H-Ol-Ul .heading h3, .H-Ol-Ul .heading h4, .H-Ol-Ul .heading h5, .H-Ol-Ul .heading h6 {
+  font-family: "Inter", sans-serif;
+  color: #828bb2;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.55;
+}
+.H-Ol-Ul .heading #head1 {
+  font-size: 50px;
+}
+.H-Ol-Ul .heading h2 {
+  font-size: 40px;
+}
+.H-Ol-Ul .heading h3 {
+  font-size: 32px;
+}
+.H-Ol-Ul .heading h4 {
+  font-size: 27px;
+}
+.H-Ol-Ul .heading h5 {
+  font-size: 22px;
+}
+.H-Ol-Ul .heading h6 {
+  font-size: 18px;
+}
+.H-Ol-Ul .Ul li {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-weight: 500;
+  list-style-type: none;
+}
+.H-Ol-Ul .Ul li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 9px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #97A7AF;
+  background: #fff;
+  border-radius: 50%;
+}
+.H-Ol-Ul .Ol {
+  list-style-type: decimal-leading-zero;
+  font-family: "Inter", sans-serif;
+  color: #828bb2;
+  font-weight: 500;
+  line-height: 2em;
+}
+.H-Ol-Ul .Ol ol {
+  list-style-type: decimal-leading-zero;
+}
+.H-Ol-Ul .Ol ol .roman {
+  list-style-type: lower-roman;
+}
+.H-Ol-Ul .Ol ol .alpha {
+  list-style-type: lower-alpha;
+}
+
+.Fe-Switch {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Fe-Switch .Fe {
+  width: 67%;
+}
+.Fe-Switch .Fe h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.Fe-Switch .Fe input {
+  display: block;
+  width: 95%;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  background: #f9f9ff;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.Fe-Switch .Fe input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Fe-Switch .Fe input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Fe-Switch .Fe #msg {
+  display: block;
+  border: none;
+  outline: none;
+  background: #f9f9ff;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+  resize: none;
+}
+.Fe-Switch .Fe #msg::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Fe-Switch .Fe #msg::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Fe-Switch .Fe #prim:focus {
+  outline: 2px solid #C8D0D7;
+}
+.Fe-Switch .Fe #acc:focus {
+  outline: 2px solid #F2B2AA;
+}
+.Fe-Switch .Fe #sec:focus {
+  outline: 2px solid #FF7F7F;
+}
+.Fe-Switch .Fe .cities, .Fe-Switch .Fe .country {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  margin-bottom: 10px;
+  background: #f9f9ff;
+  border: 1px solid #ced4da;
+}
+.Fe-Switch .Fe .cities .fa-solid, .Fe-Switch .Fe .country .fa-solid {
+  font-weight: 900;
+  position: absolute;
+  padding-left: 18px;
+  padding-top: 10px;
+  color: grey;
+}
+.Fe-Switch .Fe .cities select, .Fe-Switch .Fe .country select {
+  border: none;
+  border-radius: 0px;
+  background: #f9f9ff;
+  padding-left: 45px;
+  padding-right: 40px;
+  width: 100%;
+}
+.Fe-Switch .Fe .cities select:focus, .Fe-Switch .Fe .country select:focus {
+  outline: none;
+}
+
+.Swi-Sb-Cb-Ra {
+  margin: auto;
+  width: 23%;
+  position: relative;
+  left: -30px;
+  width: 23%;
+}
+.Swi-Sb-Cb-Ra .Sw-h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.Swi-Sb-Cb-Ra .Switches h1, .Swi-Sb-Cb-Ra .Sb h1, .Swi-Sb-Cb-Ra .Cb h1, .Swi-Sb-Cb-Ra .Ra h1 {
+  font-family: "Inter", sans-serif;
+  color: #0F4332;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.Swi-Sb-Cb-Ra .Switches {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.Swi-Sb-Cb-Ra .Switches .switch, .Swi-Sb-Cb-Ra .Switches .switch3 {
+  position: relative;
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.Swi-Sb-Cb-Ra .Switches input {
+  opacity: 0;
+}
+.Swi-Sb-Cb-Ra .Switches .slider {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.4s;
+}
+.Swi-Sb-Cb-Ra .Switches .slider:before {
+  content: "";
+  height: 17px;
+  width: 17px;
+  display: block;
+  background-color: white;
+  transition: 0.4s;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.Swi-Sb-Cb-Ra .Switches input:checked + .slider {
+  background: #97A7AF;
+}
+.Swi-Sb-Cb-Ra .Switches .switch3 input:checked + .slider {
+  background: #4cd3e3;
+}
+.Swi-Sb-Cb-Ra .Switches input:focus + .slider {
+  box-shadow: 0 0 1px #97A7AF;
+}
+.Swi-Sb-Cb-Ra .Switches input:checked + .slider:before {
+  transform: translateX(19px);
+}
+.Swi-Sb-Cb-Ra .Switches .slider.round {
+  border-radius: 34px;
+  width: 35px;
+  height: 17px;
+}
+.Swi-Sb-Cb-Ra .Switches .slider.round:before {
+  border-radius: 50%;
+}
+.Swi-Sb-Cb-Ra .Sb select {
+  border: none;
+  border-radius: 0px;
+  height: 40px;
+  background: #f9f9ff;
+  padding-left: 20px;
+  padding-right: 190px;
+  margin-bottom: 35px;
+}
+.Swi-Sb-Cb-Ra .Sb select:focus {
+  outline: none;
+}
+.Swi-Sb-Cb-Ra .Cb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1, .Swi-Sb-Cb-Ra .Cb .cb2, .Swi-Sb-Cb-Ra .Cb .cb3, .Swi-Sb-Cb-Ra .Cb .cb4, .Swi-Sb-Cb-Ra .Cb .cb5 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1 label, .Swi-Sb-Cb-Ra .Cb .cb2 label, .Swi-Sb-Cb-Ra .Cb .cb3 label, .Swi-Sb-Cb-Ra .Cb .cb4 label, .Swi-Sb-Cb-Ra .Cb .cb5 label {
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1 .primary-checkbox, .Swi-Sb-Cb-Ra .Cb .cb1 .cnfrm-checkbox, .Swi-Sb-Cb-Ra .Cb .cb2 .primary-checkbox, .Swi-Sb-Cb-Ra .Cb .cb2 .cnfrm-checkbox, .Swi-Sb-Cb-Ra .Cb .cb3 .primary-checkbox, .Swi-Sb-Cb-Ra .Cb .cb3 .cnfrm-checkbox, .Swi-Sb-Cb-Ra .Cb .cb4 .primary-checkbox, .Swi-Sb-Cb-Ra .Cb .cb4 .cnfrm-checkbox, .Swi-Sb-Cb-Ra .Cb .cb5 .primary-checkbox, .Swi-Sb-Cb-Ra .Cb .cb5 .cnfrm-checkbox {
+  width: 16px;
+  height: 16px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1 .primary-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb1 .cnfrm-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb2 .primary-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb2 .cnfrm-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb3 .primary-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb3 .cnfrm-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb4 .primary-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb4 .cnfrm-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb5 .primary-checkbox input, .Swi-Sb-Cb-Ra .Cb .cb5 .cnfrm-checkbox input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1 .primary-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb2 .primary-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb3 .primary-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb4 .primary-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb5 .primary-checkbox input:checked + label {
+  background: url(../img/primary-check.png.webp) no-repeat center center/cover;
+  border: none;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1 .cnfrm-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb2 .cnfrm-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb3 .cnfrm-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb4 .cnfrm-checkbox input:checked + label, .Swi-Sb-Cb-Ra .Cb .cb5 .cnfrm-checkbox input:checked + label {
+  background: url(../img/success-check.png.webp) no-repeat center center/cover;
+  border: none;
+}
+.Swi-Sb-Cb-Ra .Cb .cb1 .primary-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb1 .cnfrm-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb2 .primary-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb2 .cnfrm-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb3 .primary-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb3 .cnfrm-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb4 .primary-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb4 .cnfrm-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb5 .primary-checkbox input + label, .Swi-Sb-Cb-Ra .Cb .cb5 .cnfrm-checkbox input + label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+}
+.Swi-Sb-Cb-Ra .Ra {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1, .Swi-Sb-Cb-Ra .Ra .ra2, .Swi-Sb-Cb-Ra .Ra .ra3, .Swi-Sb-Cb-Ra .Ra .ra4, .Swi-Sb-Cb-Ra .Ra .ra5 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1 label, .Swi-Sb-Cb-Ra .Ra .ra2 label, .Swi-Sb-Cb-Ra .Ra .ra3 label, .Swi-Sb-Cb-Ra .Ra .ra4 label, .Swi-Sb-Cb-Ra .Ra .ra5 label {
+  font-family: "Chivo", sans-serif;
+  color: #4C5753;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1 .primary-radio, .Swi-Sb-Cb-Ra .Ra .ra1 .secondary-radio, .Swi-Sb-Cb-Ra .Ra .ra2 .primary-radio, .Swi-Sb-Cb-Ra .Ra .ra2 .secondary-radio, .Swi-Sb-Cb-Ra .Ra .ra3 .primary-radio, .Swi-Sb-Cb-Ra .Ra .ra3 .secondary-radio, .Swi-Sb-Cb-Ra .Ra .ra4 .primary-radio, .Swi-Sb-Cb-Ra .Ra .ra4 .secondary-radio, .Swi-Sb-Cb-Ra .Ra .ra5 .primary-radio, .Swi-Sb-Cb-Ra .Ra .ra5 .secondary-radio {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1 .primary-radio input, .Swi-Sb-Cb-Ra .Ra .ra1 .secondary-radio input, .Swi-Sb-Cb-Ra .Ra .ra2 .primary-radio input, .Swi-Sb-Cb-Ra .Ra .ra2 .secondary-radio input, .Swi-Sb-Cb-Ra .Ra .ra3 .primary-radio input, .Swi-Sb-Cb-Ra .Ra .ra3 .secondary-radio input, .Swi-Sb-Cb-Ra .Ra .ra4 .primary-radio input, .Swi-Sb-Cb-Ra .Ra .ra4 .secondary-radio input, .Swi-Sb-Cb-Ra .Ra .ra5 .primary-radio input, .Swi-Sb-Cb-Ra .Ra .ra5 .secondary-radio input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1 .primary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra2 .primary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra3 .primary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra4 .primary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra5 .primary-radio input:checked + label {
+  background: url(../img/primary-radio.png.webp) no-repeat center center/cover;
+  border: none;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1 .secondary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra2 .secondary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra3 .secondary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra4 .secondary-radio input:checked + label, .Swi-Sb-Cb-Ra .Ra .ra5 .secondary-radio input:checked + label {
+  background: url(../img/success-radio.png.webp) no-repeat center center/cover;
+  border: none;
+}
+.Swi-Sb-Cb-Ra .Ra .ra1 .primary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra1 .secondary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra2 .primary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra2 .secondary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra3 .primary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra3 .secondary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra4 .primary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra4 .secondary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra5 .primary-radio input + label, .Swi-Sb-Cb-Ra .Ra .ra5 .secondary-radio input + label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #f1f1f1;
+}/*# sourceMappingURL=Element.css.map */
